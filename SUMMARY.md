@@ -5,7 +5,7 @@
 * [开发 Portlet 应用](developing-portlet-applications/README.md)
 	* [创建 Portlet 项目](developing-portlet-applications/creating-a-portlet-project.md)
 	* [Portlet 项目概览](developing-portlet-applications/anotomy-of-a-portlet-project.md)
-	* [实现 My Greeting portlet](developing-portlet-applications/writing-the-my-greeting-portlet)
+	* [实现 My Greeting portlet](developing-portlet-applications/writing-the-my-greeting-portlet.md)
 	* Understanding the Two Phases of Portlet Execution
 	* Passing Information from the Action Phase to the Render Phase
 	* Developing a Portlet with Multiple Actions
