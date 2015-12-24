@@ -89,9 +89,12 @@ greeting %>" />
 < p><a href="<%= viewGreetingURL %>">&larr; Back</a></p>
 ```
 重新部署（redeploy）这个 portlet，在浏览器中刷新页面，现在应该能保存并显示自定义的问候语了。
-!-[](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=78fc11e1-833b-440e-b7bf-ae740848cc32)
+![图 3.5：My Greeting portlet 的 view 页面](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=78fc11e1-833b-440e-b7bf-ae740848cc32)
+
 图 3.5：My Greeting portlet 的 view 页面。
-!-[](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=304a85a2-9f43-4946-b45f-a9faa37757ba)
+
+![图 3.6：My Greeting portlet 的 edit 页面](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=304a85a2-9f43-4946-b45f-a9faa37757ba)
+
 图 3.6：My Greeting portlet 的 edit 页面。
 
 ``
