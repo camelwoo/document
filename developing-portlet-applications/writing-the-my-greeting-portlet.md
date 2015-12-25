@@ -1,6 +1,6 @@
 #实现 My Greeting portlet
 
-`说明：可能是 Markdown 处理的问题，有些 <p> 标签会引起格式错误，代码中有一些做了處理，改为 < p>。`
+`说明：可能是 Markdown 处理的问题，有些 <p> 标签会引起格式错误，代码中有一些做了处理，改为 < p>。`
 
 我们来做一些有用的功能。首先，做两个页面：
 
@@ -89,6 +89,7 @@ greeting %>" />
 < p><a href="<%= viewGreetingURL %>">&larr; Back</a></p>
 ```
 重新部署（redeploy）这个 portlet，在浏览器中刷新页面，现在应该能保存并显示自定义的问候语了。
+
 ![图 3.5：My Greeting portlet 的 view 页面](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=78fc11e1-833b-440e-b7bf-ae740848cc32)
 
 图 3.5：My Greeting portlet 的 view 页面。
