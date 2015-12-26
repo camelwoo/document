@@ -14,7 +14,7 @@
 	* Implementing Configurable Portlet Preferences
 	* Creating Plugins to Share Templates, Structures, and More
 * Developing JSF Portlets with Liferay Faces
-* Generating Your Service Layer
+* [Generating Your Service Layer](generating-your-service-layer/README.md)
 * Accessing Services Remotely
 * Using Liferay Frameworks
 * Designing Workflow with Kaleo
