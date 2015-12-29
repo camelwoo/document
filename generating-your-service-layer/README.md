@@ -11,7 +11,7 @@ _服务（service）_有很多含义，但通常是指“一个有价值的活�
 感兴趣吗？希望是的。后面的章节包括以下内容，先来仔细研究一下 Service Builder：
 
 - [Service Builder 是什么？](what-is-service-builder.md)
-- Defining Your Object-Relational Map
+- [定义对象-关系映射（ORM）](defining-your-object-relational-map.md)
 - Generating Services
 - Writing Local Service Classes
 - Calling Local Services

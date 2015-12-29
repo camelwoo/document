@@ -16,6 +16,7 @@
 * Developing JSF Portlets with Liferay Faces
 * [生成服务层（Service Layer）代码](generating-your-service-layer/README.md)
 	* [Service Builder 是什么？](generating-your-service-layer/what-is-service-builder.md)
+	* [定义对象-关系映射（ORM）](generating-your-service-layer/defining-your-object-relational-map.md)
 * Accessing Services Remotely
 * Using Liferay Frameworks
 * Designing Workflow with Kaleo
