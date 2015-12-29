@@ -2,7 +2,7 @@
 
 为了演示如何使用 Service Builder，继续使用在 [Developing Apps with Liferay IDE](http://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/developing-apps-with-liferay-ide-liferay-portal-6-2-dev-guide-02-en) 中创建的 _event-listing-portlet_ 项目。这是一个示例项目，一个虚拟组织 Nose-ster 用它来安排社交活动。我们使用 _event-listing-portlet_ 项目来管理和显示活动列表。我们需要添加一些实体或模型来表示 Nose-ster 的活动和地点。会定义两个实体：活动（_Event_）实体和地点（_Location_）实体。_Event_ 实体表示一个可以添加到日历中的社交活动，_Location_ 实体表示社交活动发生的地点。因为一个活动必须有一个地点，活动实体会引用地点实体作为它的一个属性。
 
-[service-builder-view-events.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=37ee21db-7d29-411f-be01-fe0ad48d8b54)
+![service-builder-view-events.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=37ee21db-7d29-411f-be01-fe0ad48d8b54)
 
 图 5.1：可以通过 Event Listing Portlet 添加社交活动。这个 portlet 凭借活动和地点实体以及 Service Builder 根据实体生成的服务组件。
 [TODO: 以下内容以后有时间再翻译]
@@ -97,7 +97,7 @@ __Location 实体的信息__
 
 要创建这些实体，要在 service.xml 编辑器的 Overview 视图左侧的 Outline 中选择 Service Builder 下面的 Entities 节点，这时窗口右侧的 Entities 表格是空的。点击表格右侧上方的 _Add Event_ 图标（绿色的加号）来添加实体。在实体名称（entity's name）中输入 _Event_，并且选中本地服务（Local Service）和远程服务（Remote Service）的选项。用同样的方法创建地点（_Location_）实体。
 
-[service-add-entity.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=e000c195-9ff2-4055-9034-704e9df52aee)
+![service-add-entity.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=e000c195-9ff2-4055-9034-704e9df52aee)
 
 图 5.2：使用 Liferay IDE 在 service.xml 的 Overview 视图中添加实体非常简单。
 
@@ -180,7 +180,7 @@ __审计 column__
 
 恭喜！你已经完成了实体的关联。在 Diagram 视图中会显示它们的关联关系，就像下面这样。
 
-[service-builder-relate-entities.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=cebb3060-d882-4bac-a9cc-cd94a8f42518)
+![service-builder-relate-entities.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=cebb3060-d882-4bac-a9cc-cd94a8f42518)
 
 图 5.3：在 Liferay IDE 的 Diagram 视图中瞬间完成实体关联。
 
