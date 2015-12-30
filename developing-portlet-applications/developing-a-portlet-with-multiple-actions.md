@@ -1,4 +1,4 @@
-#开发多 action 的 portlet
+#开发有多个 action 的 portlet
 
 现在， portlet 只有两个视图（view）：默认的 _view_ 视图和 _edit_ 视图。添加更多视图也很简单，并且可以在 _renderURL_ 中使用参数 _mvcPath_ 来链接这些视图。但是现在只有一个 action，如果我们想添加其它的 action，比如给用户发送 email 该怎么做呢？
 

@@ -8,7 +8,7 @@
 	* [实现 My Greeting portlet](developing-portlet-applications/writing-the-my-greeting-portlet.md)
 	* [理解 Portlet 执行的两个阶段](developing-portlet-applications/understanding-the-two-phases-of-portlet-execution.md)
 	* Passing Information from the Action Phase to the Render Phase
-	* [开发多 action 的 portlet](developing-portlet-applications/developing-a-portlet-with-multiple-actions.md)
+	* [开发有多个 action 的 portlet](developing-portlet-applications/developing-a-portlet-with-multiple-actions.md)
 	* Adding Friendly URL Mapping to the Portlet
 	* Localizing Your Portlet
 	* Implementing Configurable Portlet Preferences
