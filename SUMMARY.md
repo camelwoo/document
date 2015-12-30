@@ -17,6 +17,14 @@
 * [生成服务层（Service Layer）代码](generating-your-service-layer/README.md)
 	* [Service Builder 是什么？](generating-your-service-layer/what-is-service-builder.md)
 	* [定义对象-关系映射（ORM）](generating-your-service-layer/defining-your-object-relational-map.md)
+	* [生成服务](generating-your-service-layer/generating-services.md)
+	* Writing Local Service Classes
+	* Calling Local Services
+	* Understanding the Service Builder-generated Code
+	* Using Model Hints
+	* Writing Remote Service Classes
+	* Developing Custom SQL Queries
+	* Configuring service.properties
 * Accessing Services Remotely
 * Using Liferay Frameworks
 * Designing Workflow with Kaleo
