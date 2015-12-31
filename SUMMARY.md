@@ -19,8 +19,9 @@
 	* [定义对象-关系映射（ORM）](generating-your-service-layer/defining-your-object-relational-map.md)
 	* [生成服务](generating-your-service-layer/generating-services.md)
 	* Writing Local Service Classes
-	* Calling Local Services
+	* [调用本地服务](generating-your-service-layer/calling-local-services.md)
 	* Understanding the Service Builder-generated Code
+	* Creating User Interfaces for Service Builder Portlets
 	* Using Model Hints
 	* Writing Remote Service Classes
 	* Developing Custom SQL Queries
