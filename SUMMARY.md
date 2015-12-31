@@ -18,7 +18,7 @@
 	* [Service Builder 是什么？](generating-your-service-layer/what-is-service-builder.md)
 	* [定义对象-关系映射（ORM）](generating-your-service-layer/defining-your-object-relational-map.md)
 	* [生成服务](generating-your-service-layer/generating-services.md)
-	* Writing Local Service Classes
+	* [写本地服务类](generating-your-service-layer/writing-local-service-classes.md)
 	* [调用本地服务](generating-your-service-layer/calling-local-services.md)
 	* Understanding the Service Builder-generated Code
 	* Creating User Interfaces for Service Builder Portlets

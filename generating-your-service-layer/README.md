@@ -12,9 +12,9 @@ _服务（service）_有很多含义，但通常是指“一个有价值的活�
 
 - [Service Builder 是什么？](what-is-service-builder.md)
 - [定义对象-关系映射（ORM）](defining-your-object-relational-map.md)
-- Generating Services
-- Writing Local Service Classes
-- Calling Local Services
+- [生成服务](generating-services.md)
+- [写本地服务类](writing-local-service-classes.md)
+- [调用本地服务](calling-local-services.md)
 - Understanding the Service Builder-generated Code
 - Using Model Hints
 - Writing Remote Service Classes
