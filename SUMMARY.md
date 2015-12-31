@@ -22,7 +22,7 @@
 	* [调用本地服务](generating-your-service-layer/calling-local-services.md)
 	* Understanding the Service Builder-generated Code
 	* Creating User Interfaces for Service Builder Portlets
-	* Using Model Hints
+	* [使用 Model Hints](generating-your-service-layer/using-model-hints.md)
 	* Writing Remote Service Classes
 	* Developing Custom SQL Queries
 	* Configuring service.properties
