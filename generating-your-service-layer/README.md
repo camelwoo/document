@@ -17,7 +17,7 @@ _服务（service）_有很多含义，但通常是指“一个有价值的活�
 - [调用本地服务](calling-local-services.md)- 
 - Understanding the Service Builder-generated Code
 - [创建用户界面](creating-user-interfaces-for-service-builder-portlets.md)
-- Calling Liferay Services
+- [调用 Liferay 的内置服务](calling-liferay-services.md)
 - [使用 Model Hints](using-model-hints.md)
 - Writing Remote Service Classes
 - Developing Custom SQL Queries

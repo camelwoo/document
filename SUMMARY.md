@@ -22,7 +22,7 @@
 	* [调用本地服务](generating-your-service-layer/calling-local-services.md)
 	* Understanding the Service Builder-generated Code
 	* [创建用户界面](generating-your-service-layer/creating-user-interfaces-for-service-builder-portlets.md)
-	* Calling Liferay Services
+	* [调用 Liferay 的内置服务](generating-your-service-layer/calling-liferay-services.md)
 	* [使用 Model Hints](generating-your-service-layer/using-model-hints.md)
 	* Writing Remote Service Classes
 	* Developing Custom SQL Queries
