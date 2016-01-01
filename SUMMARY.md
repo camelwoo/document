@@ -9,7 +9,7 @@
 	* [理解 Portlet 执行的两个阶段](developing-portlet-applications/understanding-the-two-phases-of-portlet-execution.md)
 	* [从 Action 阶段向 Render 阶段传递信息](developing-portlet-applications/passing-information-from the-action-phase-to-the-render-phase.md)
 	* [开发有多个 action 的 portlet](developing-portlet-applications/developing-a-portlet-with-multiple-actions.md)
-	* Adding Friendly URL Mapping to the Portlet
+	* [为 portlet 设置友好的 URL](developing-portlet-applications/adding-friendly-url-mapping-to-the-portlet.md)
 	* Localizing Your Portlet
 	* Implementing Configurable Portlet Preferences
 	* Creating Plugins to Share Templates, Structures, and More
