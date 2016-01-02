@@ -11,7 +11,7 @@
 	* [开发有多个 action 的 portlet](developing-portlet-applications/developing-a-portlet-with-multiple-actions.md)
 	* [为 portlet 设置友好的 URL](developing-portlet-applications/adding-friendly-url-mapping-to-the-portlet.md)
 	* Localizing Your Portlet
-	* Implementing Configurable Portlet Preferences
+	* [实现 Portlet 偏好设置](developing-portlet-applications/implementing-configurable-portlet-preferences.md)
 	* Creating Plugins to Share Templates, Structures, and More
 * Developing JSF Portlets with Liferay Faces
 * [生成服务层（Service Layer）代码](generating-your-service-layer/README.md)
