@@ -10,7 +10,7 @@
 	* [从 Action 阶段向 Render 阶段传递信息](developing-portlet-applications/passing-information-from the-action-phase-to-the-render-phase.md)
 	* [开发有多个 action 的 portlet](developing-portlet-applications/developing-a-portlet-with-multiple-actions.md)
 	* [为 portlet 设置友好的 URL](developing-portlet-applications/adding-friendly-url-mapping-to-the-portlet.md)
-	* Localizing Your Portlet
+	* [Portlet 本地化](developing-portlet-applications/localizing-your-portlets.md)
 	* [实现 Portlet 偏好设置](developing-portlet-applications/implementing-configurable-portlet-preferences.md)
 	* Creating Plugins to Share Templates, Structures, and More
 * Developing JSF Portlets with Liferay Faces
