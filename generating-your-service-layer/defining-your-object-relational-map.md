@@ -5,12 +5,14 @@
 ![service-builder-view-events.png](https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=37ee21db-7d29-411f-be01-fe0ad48d8b54)
 
 图 5.1：可以通过 Event Listing Portlet 添加社交活动。这个 portlet 凭借活动和地点实体以及 Service Builder 根据实体生成的服务组件。
-[TODO: 以下内容以后有时间再翻译]
-If you’d like to examine the finished example project, it’s a part of our Dev Guide SDK which you can browse at https://github.com/liferay/liferay-docs/tree/master/devGuide/code/devGuide-sdk. The project is in the SDK’s portlets/event-listing-portlet folder.
 
-tip-pen-paper.png Note: If you’re looking for a fully-functional portlet application that can manage events, please use Liferay’s Calendar portlet instead. The example described in this section is only intended to demonstrate how to use Service Builder. The Calendar portlet provides many more features than the simple example application described here. For information about the Calendar portlet, please refer to the chapter on Liferay’s collaboration suite in Using Liferay Portal 6.2.
+完整的示例项目是 _Dev Guide SDK_ 的一部分，如果想看看，可以浏览 https://github.com/liferay/liferay-docs/tree/master/devGuide/code/devGuide-sdk。项目在 SDK 的 _portlets/event-listing-portlet_ 目录。
 
-As with any portlet project, the event-listing-portlet project’s Java sources lie in its docroot/WEB-INF/src folder. Notice that Liferay IDE’s portlet wizard created the EventListingPortlet.java and LocationListingPortlet.java files in the com.nostester.portlet.eventlisting package. We’ll add some business logic to these portlet classes after using Service Builder to create a service layer for our event and location entities.
+``
+注意：如果要找一个功能完整的管理活动的 portlet，请使用 Liferay 的日历（Calendar）portlet。本节的示例只是为了演示如何使用 Service Builder。日历 portlet 提供了更完多的功能。关于日历 portlet 的详细信息，请参考 [Using Liferay Portal 6.2](http://www.liferay.com/documentation/liferay-portal/6.2/user-guide) 的 Liferay 协作套件章节。
+``
+
+和其它 portlet 项目一样，_event-listing-portlet_ 项目的 Java 源文件也在 _docroot/WEB-INF/src_ 目录。注意，Liferay IDE 的 portlet 向导创建的 _EventListingPortlet.java_ 和 _LocationListingPortlet.java_ 文件在 _com.nostester.portlet.eventlisting package_ 包中。用 Service Builder 生成活动和地点实体的服务层代码后，添加一些业务逻辑。
 
 使用 Service Builder 第一步是在 `docroot/WEB-INF/service.xml` 中定义模型类和类的属性。在 Service  Builder 的术语中，数据模型类（_Event_ 和 _Location_）称为实体。我们对 _Event_ 和 _Location_ 实体的需求相当简单。它们有以下属性：
 
