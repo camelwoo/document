@@ -160,25 +160,23 @@ This is the <b>Location Listing Portlet</b> in View mode.
 
 现在，已经实现了 _edit_location.jsp_，必须提供一个用户能访问到它的方法。在 _view.jsp_ 中添加一个按钮，跳转到 _edit_location.jsp_：
 
-1 . 打开地点的 _view.jsp_，在 _<liferay-ui:search-container>_ 上方添加以下代码：
+1. 打开地点的 _view.jsp_，在 _<liferay-ui:search-container>_ 上方添加以下代码：
 
-```
+	```
 <%
     String redirect = PortalUtil.getCurrentURL(renderRequest);
 %>
-
 <aui:button-row>
     <portlet:renderURL var="addLocationURL">
         <portlet:param name="mvcPath" value="/html/locationlisting/edit_location.jsp" />
         <portlet:param name="redirect" value="<%= redirect %>" />
     </portlet:renderURL>
-
     <aui:button onClick="<%= addLocationURL.toString() %>" value="add-location" />
 </aui:button-row>
 ```
-2 . 在 _view.jsp_ 的顶端添加以下指令来导入 AlloyUI 的 _aui_ 标签库：
+2. 在 _view.jsp_ 的顶端添加以下指令来导入 AlloyUI 的 _aui_ 标签库：
 
-```
+	```
 <%@ taglib uri="http://liferay.com/tld/aui" prefix="aui" %>
 ```
 
