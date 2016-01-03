@@ -1,4 +1,4 @@
-#为 portlet 设置友好的 URL
+#为 Portlet 设置友好的 URL
 
 当点击 _Edit_ 问候语的链接时，新页面的链接就像下面这样：
 

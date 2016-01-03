@@ -1,4 +1,4 @@
-#实现 My Greeting portlet
+#实现 My Greeting Portlet
 
 `说明：可能是 Markdown 处理的问题，有些 <p> 标签会引起格式错误，代码中有一些做了处理，改为 < p>。`
 
