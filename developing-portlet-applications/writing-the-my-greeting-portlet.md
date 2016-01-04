@@ -60,9 +60,7 @@ if (greeting != null) {
     prefs.setValue("greeting", greeting);
     prefs.store();
 %>
-
     <p>Greeting saved successfully!</p>
-
 <%
 }
 %>
@@ -77,8 +75,7 @@ greeting = (String)prefs.getValue(
 </portlet:renderURL>
 
 <aui:form action="<%= editGreetingURL %>" method="post">
-    <aui:input label="greeting" name="greeting" type="text" value="<%=
-greeting %>" />
+    <aui:input label="greeting" name="greeting" type="text" value="<%=greeting %>" />
     <aui:button type="submit" />
 </aui:form>
 
