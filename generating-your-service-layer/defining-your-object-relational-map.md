@@ -6,7 +6,7 @@
 
 图 5.1：可以通过 Event Listing Portlet 添加社交活动。这个 portlet 凭借活动和地点实体以及 Service Builder 根据实体生成的服务组件。
 
-完整的示例项目是 _Dev Guide SDK_ 的一部分，如果想看看，可以浏览 https://github.com/liferay/liferay-docs/tree/master/devGuide/code/devGuide-sdk。项目在 SDK 的 _portlets/event-listing-portlet_ 目录。
+完整的示例项目是 _Dev Guide SDK_ 的一部分，如果想看看，可以浏览 https://github.com/liferay/liferay-docs/tree/6.2.x/devGuide/code/devGuide-sdk （译注：原文中的地址已失效）。项目在 SDK 的 [portlets/event-listing-portlet](https://github.com/liferay/liferay-docs/tree/6.2.x/devGuide/code/devGuide-sdk/portlets/event-listing-portlet) 目录。
 
 ``
 注意：如果要找一个功能完整的管理活动的 portlet，请使用 Liferay 的日历（Calendar）portlet。本节的示例只是为了演示如何使用 Service Builder。日历 portlet 提供了更完多的功能。关于日历 portlet 的详细信息，请参考 [Using Liferay Portal 6.2](http://www.liferay.com/documentation/liferay-portal/6.2/user-guide) 的 Liferay 协作套件章节。
