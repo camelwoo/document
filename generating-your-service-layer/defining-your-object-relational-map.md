@@ -137,17 +137,17 @@ __Location 实体的属性__
 | --- | --- | --- |
 | locationId | long | yes |
 | name | String | no |
-|description | String | no |
+| description | String | no |
 | streetAddress | String | no |
-|city | String | no|
-|stateOrProvince | String | no |
+| city | String | no|
+| stateOrProvince | String | no |
 | country | String | no |
 
 点击添加图标来添加每一个属性。然后填写属性的名称、选择类型并且指定它是否是主键。当属性在 _Type_ 域时会出现选项图标。点击这个图标来选择合适的 column 类型。为 Event 实体的每个属性创建 column。给 Location 实体添加 column 的操作类似。
 
 除了添加主键和其它属性，建议添加保存“站点ID”和“portal 实例ID”的属性。这样 portlet 就可以支持 Liferay 的多租户（multi-tenancy）特性，这样每个 portal 实例的每个站点上的每个该 portlet 的实例都可以有单独的 portlet 数据。要保存站点的 ID，需要添加一个名为 _groupId_ 且类型为 _long_ 的 column。要保存 portal 实例的 ID，需要添加一个名为 _companyId_ 并且类型为 _long_ 的 column。将这两个 column 添加到 _Event_ 和 _Location_ 实体中。
 
-__Portal 和 站点的 column__
+__Portal 和站点的 column__
 
 | Name | Type | Primary |
 | --- | --- | --- |
@@ -160,7 +160,9 @@ __用户 column__
 
 | Name | Type | Primary |
 | --- | --- | --- |
-| userId | long | no |
+| userName | String | no |
+
+``译注：原文这里是 userId，但在下面审计的信息中还有一个 userId。因此这里应该是 userName``
 
 最后，为 _Event_ 和 _Location_ 实体添加用于审计的 column。添加一个名为 _createDat_ 类型为 _Date_ 的 column 来记录实例创建的日期。再添加一个名为 _modifiedDate_ 类型为 _Date_ 的 column 来跟踪实体最后一次被修改的时间。
 
@@ -173,6 +175,8 @@ __审计 column__
 | modifiedDate | Date | no |
 
 非常棒！实体不仅包含自身的属性还支持多租户和实体审计。接下来，我们要指定 _Event_ 实体和 _Location_ 实体之间的关系 。
+
+``译注：Liferay IDE 提供了方便的工具来生成这些辅助的属性。在 Overview 视图中添加 column 时，有一个 _Add Default Columns_，点击后会为你生成这些信息。``
 
 ##定义实体之间的关系
 
@@ -220,7 +224,7 @@ Finder 方法可以根据指定的参数从数据库中获取实体对象。一�
 
 为了方便，将 service.xml 的内容列在下面。我们还添加了一些注释。你的 service.xml 应该和下面的内容类似：
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN"
 "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
