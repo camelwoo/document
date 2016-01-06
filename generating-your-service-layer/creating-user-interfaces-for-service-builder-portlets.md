@@ -15,7 +15,7 @@
 
 因为这部分是 location 实体的“视图”，用一个名为 view.jsp 的 JSP 来实现它，这个文件放在 _docroot/html/locationlisting_ 目录中。如果没有这个目录或文件就建一个。然后打开 _view.jsp_，并且用以下代码替换文件内容：
 
-```jsp
+```html
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
 <%@ taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %>
@@ -92,7 +92,7 @@ This is the <b>Location Listing Portlet</b> in View mode.
 
 现在需要创建一个用来添加地点的页面，命名为 _edit\_location.jsp_，添加、修改地点都用它。在 _docroot/html/locationlisting_ 目录创建这个文件，将以下内容复制到文件中：
 
-```
+```html
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
 <%@ taglib uri="http://liferay.com/tld/aui" prefix="aui" %>
@@ -162,7 +162,7 @@ This is the <b>Location Listing Portlet</b> in View mode.
 
 1. 打开地点的 _view.jsp_，在 _<liferay-ui:search-container>_ 上方添加以下代码：
 
-	```
+	```html
 <%
     String redirect = PortalUtil.getCurrentURL(renderRequest);
 %>
@@ -247,7 +247,7 @@ This is the <b>Location Listing Portlet</b> in View mode.
 
 在 _view.jsp_ 中关闭 _</liferay-ui:search-container-row>_ 标签之前添加一个容器来显示在 _location\_actions.jsp_ 中做好的编辑和删除图标：
 
-```
+```html
 <liferay-ui:search-container-column-jsp
     align="right"
     path="/html/locationlisting/location_actions.jsp"
