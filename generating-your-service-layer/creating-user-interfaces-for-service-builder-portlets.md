@@ -15,7 +15,7 @@
 
 因为这部分是 location 实体的“视图”，用一个名为 view.jsp 的 JSP 来实现它，这个文件放在 _docroot/html/locationlisting_ 目录中。如果没有这个目录或文件就建一个。然后打开 _view.jsp_，并且用以下代码替换文件内容：
 
-```
+```jsp
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
 <%@ taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %>
@@ -200,7 +200,7 @@ This is the <b>Location Listing Portlet</b> in View mode.
 
 先来创建一个名为 _location_actions.jsp。在 _html/locationlisting_ 目录中创建 _location\_actions.jsp_ 文件，将下面代码复制到文件中：
 
-```
+```html
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
 <%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
